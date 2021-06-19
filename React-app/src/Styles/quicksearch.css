@@ -1,0 +1,259 @@
+.Heading-2 {
+    width: 239px;
+    height: 43px;
+    margin: 10px 143px 0 110px;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    }
+    
+    .img-2{
+        width: 45%; 
+        height: 130px;
+        }
+
+    .discover{
+    width: 331px;
+    height: 25px;
+    margin: 7px 59px 13px 110px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    }
+    
+    .small-rec{
+    width: 98%;
+    height: 130px;
+    margin: 0 0 21px -183px;
+    margin-left: 62px;
+    box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color:white;
+    
+    }
+    .Breakfast {
+    vertical-align: top;
+    position: relative;
+    display: inline-block;
+    width: 88px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family: Poppins;
+    font-size: 22px;
+    color: #192f60;
+    }
+    
+    
+    .description {
+    position: absolute;
+    display: inline-block;
+    margin-top: 50px;
+    margin: 42px 0px 4px -87px;
+    text-align: left;
+    font-family: poppins;
+    font-size: 14px;
+    line-height: 1.50;
+    font-weight: 500;
+    color: #8c96ab;
+    }
+
+    @media only screen and (max-width:600px) {
+        .discover{
+            width: 331px;
+            height: 25px;
+            margin: 17px 59px 6px 52px;
+            font-family: Poppins;
+            font-size: 15px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 0.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #8c96ab;
+        }
+        
+        .img-2{
+            width: 40%; 
+            height: 130px;
+            }
+        
+        .Heading-2 {
+        width: 239px;
+        height: 43px;
+        margin: 140px 146px -14px 48px;
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.53;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        }
+        .small-rec{
+            width: 363%;
+            height: 130px;
+            margin:0 0 20px -197px;
+            margin-left: 2px;
+            box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            background-color:white;
+            
+            }
+            .Breakfast {
+                vertical-align: top;
+                position: relative;
+                display: inline-block;
+                width: 88px;
+                height: 25px;
+                margin-left: 35px;
+                margin-top: 5px;
+                font-family: Poppins;
+                font-size: 22px;
+                color: #192f60;
+                }
+            .description {
+                width: 118px;
+            position: absolute;
+            display: inline-block;
+            margin-top: 50px;
+            margin: 42px 0px 4px -87px;
+            text-align: left;
+            font-family: poppins;
+            font-size: 13px;
+            line-height: 1.50;
+            font-weight: 500;
+            color: #8c96ab;
+            }
+    }
+
+    @media only screen and (min-width:601px) and (max-width:792px){
+        .Heading-2 {
+            width: 239px;
+            height: 43px;
+            margin: -3px 143px 0 90px;
+            font-family: Poppins;
+            font-size: 26px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.53;
+            letter-spacing: normal;
+            text-align: left;
+            color: #192f60;
+            }
+
+            .img-2{
+                width: 40%; 
+                height: 140px;
+                }
+
+            .discover{
+            width: 431px;
+            height: 25px;
+            margin: 7px 0px 2px 90px;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 0;
+            letter-spacing: normal;
+            text-align: left;
+            color: #8c96ab;
+            }
+            .small-rec{
+                width: 60%;
+                height: 140px;
+                margin:0 0 21px -183px;
+                margin-left: 75px;
+                box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16);
+                background-color:white;
+                
+                }
+    }
+    @media only screen and (min-width:793px) and (max-width:1040px){
+        .Heading-2 {
+            width: 239px;
+            height: 43px;
+            margin: 15px 143px 0 76px;
+            font-family: Poppins;
+            font-size: 28px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.53;
+            letter-spacing: normal;
+            text-align: left;
+            color: #192f60;
+            }
+            
+            .img-2{
+            width: 40%; 
+            height: 140px;
+            }
+
+            .discover{
+            width: 331px;
+            height: 25px;
+            margin: 7px 59px 4px 79px;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 0.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #8c96ab;
+            }
+            
+            .small-rec{
+            width: 80%;
+            height: 140px;
+            margin:0 0 21px -183px;
+            margin-left: 65px;
+            box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            background-color:white;
+            
+            }
+            .Breakfast {
+            vertical-align: top;
+            position: relative;
+            display: inline-block;
+            width: 88px;
+            height: 25px;
+            margin-left: 20px;
+            margin-top: 5px;
+            font-family: Poppins;
+            font-size: 22px;
+            color: #192f60;
+            }
+            
+            .description {
+            position: absolute;
+            display: inline-block;
+            margin-top: 50px;
+            margin: 42px 0px 4px -87px;
+            text-align: left;
+            font-family: poppins;
+            font-size: 16px;
+            line-height: 1.50;
+            font-weight: 500;
+            color: #8c96ab;
+            }
+
+    }

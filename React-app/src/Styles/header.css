@@ -1,0 +1,218 @@
+.app-header{
+    height: 60px;
+    background-color: #ce0505; 
+}
+.Login0{
+    position: absolute;
+    background-color: #ce0505;
+    top: 2%;
+    color: white;
+    text-align: right;
+    margin: 0px 0px 0px 940px;
+    font-family: poppins;
+    font-size: 20px;
+    border: solid 2px #ce0505;
+    
+    }
+    .acc-box0{
+        display: inline-block;
+        background-color: #ce0505;
+        position: relative;
+        width: 226px;
+        color: white;
+        padding:6px 0px 6px 0px;
+        text-align: center;
+        margin: -452px 0px 0px 1020px;
+        top: 20px;
+        font-family: poppins;
+        font-size: 20px;
+        border-radius: 4px;
+        border: solid 2px white;
+    }
+    .logout{
+        display: inline-block;
+        position: relative;
+        width: 226px;
+        color: white;
+        padding:6px 0px 6px 0px;
+        text-align: center;
+        margin: -452px 0px 0px 1105px;
+        top: 20px;
+        font-family: poppins;
+        font-size: 20px;
+        border-radius: 4px;
+        border: solid 2px white;
+    }
+    .sign{
+        font-size: 21px;
+        margin-bottom: 30px;
+        margin-top: -24px;
+        color: #192f60;
+        font-weight: 700;
+    }
+    .cred{
+        color: #390fe2;
+        border: solid 1px #390fe2;
+        font-weight: 500;
+        background-color: white;
+        margin: 8px 11px 0px 3px;
+        box-shadow: 2px 4px 5px 2px rgba(0, 0, 0, 0.16);
+        padding: 12px 1px 12px 12px;
+    }
+
+    .googleButton{
+        color: blue;
+        padding: 10px 45px 10px 0px;
+        font-weight: 500;
+    }
+
+    .logo-e{
+        text-align: center;
+        border-radius: 50%;
+        color: white;
+        font-size: 28px;
+        background-color: red;
+        width: 50px;
+        height: 50px;
+        font-weight: 600;
+        padding-top: 3px;
+        margin-left: 100px;
+        margin-top: -8px;
+    }
+
+    .line3{
+        width: 277px;
+        height: 0;
+        margin: 17px 0 20px;
+        margin-left: -5px;
+        border: solid 1px #cac0c0;
+    }
+    
+    .signupForm{
+        text-align: center;
+        margin-top: 8px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .space{
+        margin-top: 10px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .kep-login-facebook.metro {
+        width: 212px;
+        height: 45px;
+        padding: 0px 34px 0px 28px;
+        margin-bottom: -7px;
+        color: #192f60;
+        background-color: white;
+      }
+      .kep-login-facebook.metro { 
+          font-family: Helvetica,sans-serif;
+          font-weight: 700;
+          -webkit-font-smoothing: antialiased;
+          color: #635bdc;
+          cursor: pointer;
+          display: inline-block;
+          font-size: calc(.27548vw + 11.71074px);
+          text-decoration: none;
+          box-shadow: 2px 4px 5px 2px rgba(0, 0, 0, 0.16);
+          text-transform: none;
+          transition: background-color .3s,border-color .3s;
+          background-color: #fff;
+          border: calc(.06887vw + .67769px) solid white;
+          padding:  calc(-1.65565vw + 11.38843px) calc(-0.65565vw + 18.38843px);
+      }
+
+    @media only screen and (max-width:600px) {
+        .Login0{
+            position: absolute;
+            background-color: #ce0505;
+            top: 2%;
+            color: white;
+            text-align: right;
+            margin: 0px 0px 0px 185px;
+            font-family: poppins;
+            font-size: 18px;
+            border: solid 2px #ce0505;
+            
+            }
+            .acc-box0{
+                display: inline-block;
+                background-color: #ce0505;
+                position: relative;
+                width: 200px;
+                color: white;
+                padding:4px;
+                text-align: center;
+                margin: -462px 0px 0px 265px;
+                top: 20px;
+                font-family: poppins;
+                font-size: 18px;
+                border-radius: 4px;
+                border: solid 1px white;
+            }
+            .logout{
+                display: inline-block;
+                position: relative;
+                width: 226px;
+                color: white;
+                padding:6px 0px 6px 0px;
+                text-align: center;
+                margin: -452px 0px 0px 1105px;
+                top: 20px;
+                font-family: poppins;
+                font-size: 20px;
+                border-radius: 4px;
+                border: solid 2px white;
+            }
+            .sign{
+                font-size: 21px;
+                margin-bottom: 30px;
+                margin-top: -45px;
+                color: #192f60;
+            }
+            .cred{
+                color: black;
+                border: solid 2px white;
+                background-color: white;
+                margin: 8px 15px 0px 3px;
+                padding: 7px 15px 9px 13px
+            }
+            .googl{
+                padding: 10px 10px 10px 0px;
+                font-weight: 600;
+                color: black;
+            }
+            .line3{
+                width: 277px;
+                height: 0;
+                margin: 17px 0 20px;
+                margin-left: 0px;
+                border: solid 1px #dedfe5;
+            }
+            .logo-e{
+                text-align: center;
+                border-radius: 50%;
+                color: white;
+                font-size: 28px;
+                background-color: red;
+                width: 50px;
+                height: 50px;
+                font-weight: 600;
+                padding-top: 3px;
+                margin-left: 100px;
+                margin-top: -8px;
+            }
+            .signupForm{
+                text-align: center;
+                margin-top: 11px;
+                font-size: 22px;
+                font-weight: 600;
+            }
+            .space{
+                margin-top: 10px;
+                font-size: 16px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+    }

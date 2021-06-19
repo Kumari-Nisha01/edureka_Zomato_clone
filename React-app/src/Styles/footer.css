@@ -1,0 +1,19 @@
+.app-footer{
+    height: 60px;
+    font-weight: 600;
+    background-color: cornflowerblue;
+    color: rgb(14, 57, 250);
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:600px) {
+    .app-footer{
+        height: 60px;
+        font-weight: 600;
+        background-color: cornflowerblue;
+        color: rgb(14, 57, 250);
+        text-align: center;
+        margin-top: 20px;
+    }
+}

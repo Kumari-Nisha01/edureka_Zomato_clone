@@ -1,0 +1,420 @@
+.bg-image {
+    width: 100%; 
+    height:490px;
+    border: 1px solid var(--grapefruit);
+    background: linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707);
+}
+
+.e{
+position: absolute;
+top: 23%;
+color: red;
+font-size: 68px;
+border-radius: 50%;
+font-family: poppins;
+left: 46%;
+text-align: center;
+width: 105px;
+height: 105px;
+background-color: white;
+}
+
+.heading{
+position: absolute;
+top: 42%;
+margin-left: 26%;
+color: white;
+text-align: center;
+font-family: poppins;
+font-size: 32px;
+font-weight: 600;
+font-stretch: normal;
+line-height: 1.53;
+letter-spacing: normal;
+}
+
+.glyphicon-search{
+position: relative;
+top: -40px;
+left: 203px;
+color: #74819e;
+display: inline-block;
+font-family: 'Glyphicons Halflings';
+font-style: normal;
+font-weight: 400;
+line-height: 1;
+}
+
+.selectLocation{
+position: absolute;
+top:52%;
+left:28%;
+font-size: 13px;
+font-family: Poppins;
+font-style: normal;
+line-height: 1.53;
+letter-spacing: normal;
+}
+.box-2{
+ width:285px;
+ height: 45px;
+ margin-left: 27%; 
+ color: #8c96ab; 
+ margin:0px 0px 0px 0px;
+ font-stretch: normal;
+ padding-left: 20px;
+ opacity: 0.8;
+ border: 1px solid rgba(0, 0, 0, 0.2);
+ appearance: none;
+}
+
+.box-3{
+top:20%;
+width:345px;
+height: 45px;
+color: #8c96ab;
+font-stretch: normal;
+margin: 10px 0px 10px 10px;
+padding-left: 30px;
+border: none;
+opacity: 0.8;
+appearance: none;
+}
+#query {
+    width: 88%;
+    box-sizing: border-box;
+    font-size: 19px;
+    padding: 12px;
+    font-size: 13px;
+    font-family: poppins;
+    margin: 0px 0px 0px 191px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: #8c96ab;
+    opacity: 0.8;
+    padding-left: 29px;
+}
+.locationSelect{
+    position: relative;
+    top: -238px;
+    margin-left: 23.5%;
+    margin-right: 20%;
+    text-align: center;
+}
+li {
+    
+    list-style: none;
+    background-color: lightgray;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid #CCC;
+    box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#notebooks {
+    display: inline-block;
+    position: absolute;
+    left: 38%;
+    width: 350px;
+    border-radius: 5px;
+    max-height: 450px;
+}
+
+ul {
+    margin-top: -1px;
+    margin-left: 190px;
+    padding: 0;
+    max-height: 390px;
+    overflow-y: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0px 1px 0px 1px;
+    border-left: none;
+    border-right: none;
+}
+
+#notebooks span {
+    display: inline-block;
+    position: absolute;
+    background: #FFD32E;
+    bottom: -35px;
+    left: -1px;
+    width: 360px;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inset 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+@media only screen and (max-width:600px) {
+.heading{
+position: absolute;
+top: 33%;
+margin-left: 0px;
+color: white;
+text-align: center;
+font-family: poppins;
+font-size: 28px;
+font-weight: 600;
+font-stretch: normal;
+line-height: 1.53;
+letter-spacing: normal;
+}
+
+.bg-image{
+ width: 100%; 
+height: 370px;
+}
+
+.glyphicon-search{
+position: relative;
+top: -36px;
+left: 203px;
+color: #74819e;
+display: inline-block;
+font-family: 'Glyphicons Halflings';
+font-style: normal;
+font-weight: 400;
+}
+
+.box-2{
+ width:198px;
+ height: 37px; 
+ color: #8c96ab; 
+ margin: 0px 0px 0px -5px;
+ font-stretch: normal;
+ padding-left: 17px;
+ border: none;
+ appearance: none;
+ opacity: 0.8;
+}
+
+#notebooks {
+    display: inline-block;
+    position: absolute;
+    left: 2%;
+    width: 350px;
+    border-radius: 5px;
+    max-height: 450px;
+}
+
+#query {
+    width: 65%;
+    box-sizing: border-box;
+    font-size: 19px;
+    padding: 8px;
+    font-size: 13px;
+    font-family: poppins;
+    margin: 0px 0px 0px 191px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: #8c96ab;
+    opacity: 0.8;
+    padding-left: 29px;
+}
+
+.box-3{
+position: relative;
+opacity: 0.8;
+width: 210px;
+height: 37px;
+color: #8c96ab;
+font-stretch: normal;
+margin: -37px 44px 0px 15px;
+padding: 0px 0px 0px 25px;
+border: none;
+appearance: none;
+}
+.e{
+position: absolute;
+top: 16%;
+color: red;
+font-size: 50px;
+border-radius: 50%;
+font-family: poppins;
+left: 40%;
+text-align: center;
+width: 80px;
+height: 80px;
+background-color: white;
+}
+.selectLocation{
+position: relative;
+margin: -140px 0 0 -110px;
+font-size: 13px;
+font-family: Poppins;
+font-style: normal;
+line-height: 1.53;
+letter-spacing: normal;
+}  
+
+}   
+@media only screen and (min-width:601px) and (max-width:792px){
+.heading{
+position: absolute;
+top: 40%;
+margin-left: 4%;
+color: white;
+text-align: center;
+font-family: poppins;
+font-size: 34px;
+font-weight: 600;
+font-stretch: normal;
+line-height: 1.53;
+letter-spacing: normal;
+}
+
+.bg-image {
+    width: 100%; 
+    height:430px;
+    border: 1px solid var(--grapefruit);
+}
+
+.glyphicon-search{
+position: relative;
+top: -27px;
+left: 275px;
+color: #74819e;
+display: inline-block;
+font-family: 'Glyphicons Halflings';
+font-style: normal;
+font-weight: 400;
+}
+
+.box-2{
+ width:260px;
+ height: 40px;
+ margin-left: 29%; 
+ color: #8c96ab; 
+ margin:0px 0px 0px 0px;
+ font-stretch: normal;
+ padding: 0px 0px 0px 11px;
+ opacity: 0.8;
+ border: none;
+ appearance: none;
+}
+
+.box-3{
+top:9%;
+width:300px;
+height: 40px;
+opacity: 0.8;
+color: #8c96ab;
+font-stretch: normal;
+margin: -39px -30px 0px 0px;
+padding-left: 30px;
+border: none;
+margin-left: 48%;
+appearance: none;
+}
+.e{
+position: absolute;
+top: 22%;
+color: red;
+font-size: 64px;
+border-radius: 50%;
+font-family: poppins;
+left: 45%;
+text-align: center;
+width: 100px;
+height: 100px;
+background-color: white;
+}
+
+.selectLocation{
+position: absolute;
+top:54%;
+left:15%;
+font-size: 14px;
+height: 50px;
+font-family: Poppins;
+font-style: normal;
+line-height: 1.53;
+letter-spacing: normal;
+}
+}
+
+@media only screen and (min-width:793px) and (max-width:1040px){
+.bg-image {
+    width: 100%; 
+    height:460px;
+}
+.e{
+position: absolute;
+top: 22%;
+color: red;
+font-size: 64px;
+border-radius: 50%;
+font-family: poppins;
+left: 46%;
+text-align: center;
+width: 100px;
+height: 100px;
+background-color: white;
+}
+
+.heading{
+position: absolute;
+top: 44%;
+margin-left: 11%;
+color: white;
+text-align: center;
+font-family: poppins;
+font-size: 38px;
+font-weight: 600;
+font-stretch: normal;
+line-height: 1.53;
+letter-spacing: normal;
+}
+
+.glyphicon-search{
+position: relative;
+top: -27px;
+left: 355px;
+color: #74819e;
+display: inline-block;
+font-family: 'Glyphicons Halflings';
+font-style: normal;
+font-weight: 400;
+line-height: 1;
+/* -webkit-font-smoothin */
+}
+
+.selectLocation{
+position: absolute;
+top:58%;
+left:17%;
+font-size: 13px;
+font-family: Poppins;
+font-style: normal;
+line-height: 1.53;
+letter-spacing: normal;
+}
+.box-2{
+ width:330px;
+ height: 40px;
+ margin-left: 27%; 
+ color: #8c96ab; 
+ margin:0px 0px 0px 0px;
+ font-stretch: normal;
+ padding-left: 20px;
+ opacity: 0.8;
+ border: none;
+ appearance: none;
+}
+
+.box-3{
+top:20%;
+width:340px;
+height: 40px;
+opacity: 0.8;
+color: #8c96ab;
+font-stretch: normal;
+margin: -50px -67px 0px 0px;
+padding-left: 30px;
+border: none;
+margin-left: 2%;
+appearance: none;
+}
+}
